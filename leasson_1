@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+/* Leasson #1 */
+
+main() {
+	printf("Hello!");
+}
