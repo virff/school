@@ -1,0 +1,70 @@
+#include <stdio.h>
+
+/* https://github.com/virff/school/blob/main/leasson_6v2 */
+
+main() {
+	// tablica na 5
+	for (int s=1; s<11; s++) {
+		printf("5*%i=%i\n",s,5*s);
+	}
+	
+	printf("---\n");
+	
+	// > ili < 7
+	int a=0;
+	printf("Vvedi chislo 7\n");
+	while(a!=7){
+		scanf("%i",&a);
+		if (a>7){
+			printf("Bolshe\n");
+		} else {
+			if(a<7){
+				printf("Menshe\n");
+			}
+		}
+	}		printf("DONE\n");
+	
+	printf("---\n");
+	
+	// > ili < 10
+	int b=0;
+	printf("Vvedi chislo 10\n");
+	while(b!=10){
+		scanf("%i",&b);
+		if (b>10){
+			printf("Bolshe\n");
+		} else {
+			if(b<10){
+				printf("Menshe\n");
+			}
+		}
+	}		printf("DONE\n");
+	
+	printf("---\n");
+	
+	// delica na 2 
+	int c=0;
+	printf("Chislo delica na 2?\n");
+	while(true){
+		scanf("%i", &c);
+		if (c % 2 == 0){
+			printf("DELICA\n");
+			break;
+		} else {
+			printf("ERROR\n");
+			}
+	}
+	
+	// delica na 3 
+	int d=0;
+	printf("Chislo delica na 3?\n");
+	while(true){
+		scanf("%i", &d);
+		if (d % 3 == 0){
+			printf("DELICA\n");
+			break;
+		} else {
+			printf("ERROR\n");
+			}
+	}
+}
