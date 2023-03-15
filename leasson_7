@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+/* https://github.com/virff/school/blob/main/leasson_7 */
+
+main() {
+	
+	int sum=0;
+	for (int s=1; s<100; s=s+1) {
+		sum=sum+s;
+	}
+	printf("%i\n",sum);
+}
