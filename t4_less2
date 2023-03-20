@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+/* https://github.com/virff/school/blob/main/t4_less2 */
+
+main() {
+
+	// massiv iz 7, cherez for		
+	int mass[7];
+	printf("Enter data\n");
+	
+	for (int i=0;i<7;i++){
+		scanf("%i", &mass[i]);
+	}
+	
+	for (int i=0;i<7;i++){
+		printf("%i",mass[i]);
+	}
+
+	// massiv iz "n", vivod cherez probel
+	printf("\n---\n");
+	
+	int n,mas[n];
+	printf("Mass size?\n");
+	scanf("%i", &n);
+	
+	for (int i=0;i<n;i++){
+		scanf("%i ", &mas[i]);
+	}
+	
+	for (int i=0;i<n;i++){
+		printf("%i ",mas[i]);
+	}
+}
